@@ -15,11 +15,6 @@
     </script>
   </head>
   <body>
-    <p>Date/Time: <span id="datetime"></span></p>
-    <script>
-    var dt = new Date();
-    document.getElementById("datetime").innerHTML = (("0"+(dt.getMonth()+1)).slice(-2)) +"/"+ (("0"+dt.getDate()).slice(-2)) +"/"+ (dt.getFullYear()) +" "+ (("0"+dt.getHours()+1).slice(-2)) +":"+ (("0"+dt.getMinutes()+1).slice(-2));
-    </script>
     <div class="centerContainer">
       <div id="quoteText">LIFE'S A GAME. ANIME IS HOW WE KEEP PLAYING.</div>
       <div id="divider"></div>
@@ -38,8 +33,6 @@
     
     <video autoplay loop id="video">
       <source src="u.mp4" type="video/mp4">
-    </video>
-<input id="vol-control" type="range" min="0" max="100" step="1" oninput="SetVolume(this.value)" onchange="SetVolume(this.value)"></input>
-	
+    </video>	
   </body>
 </html>
