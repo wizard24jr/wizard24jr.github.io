@@ -1,13 +1,6 @@
-html, body {
-    height: 100%;
-    margin: 0;
-}
-
-.gif-container {
-  background: url("back.gif") center;
+body {
+  background: url('back.gif') no-repeat center center fixed;
   background-size: cover;
-
-  height: 100%;
 }
 
 video#video { 
