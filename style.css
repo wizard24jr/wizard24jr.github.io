@@ -4,15 +4,14 @@ body {
 }
 
 @font-face {
-  font-family: 'Bebas Neue';
+  font-family: 'Courier New';
   font-style: normal;
   font-weight: normal;
-  src: local('Bebas Neue'), url('BebasNeue.woff') format('woff');
 }
 
 * {
-  font-family: 'Bebas Neue';
-  color: cyan;
+  font-family: 'Courier New';
+  color: white;
 }
 
 .centerContainer {
