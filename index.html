@@ -23,6 +23,33 @@
       <span></span>
       <p>Loading...</p>
    </div>
+      <script>
+         document.onkeypress = function (event) {
+            event = (event || window.event);
+            if (event.keyCode == 123) {
+               //alert('No F-12');
+                return false;
+            }
+         }
+         document.onmousedown = function (event) {
+            event = (event || window.event);
+            if (event.keyCode == 123) {
+                //alert('No F-keys');
+                return false;
+            }
+         }
+         document.onkeydown = function (event) {
+            event = (event || window.event);
+            if (event.keyCode == 123) {
+                //alert('No F-keys');
+                return false;
+            }
+         }
+      </script>
+      <script>document.addEventListener("contextmenu", function(e){
+         e.preventDefault();
+         }, false);
+      </script>
    <div class="pmeme">
       <video id="video" autoplay="autoplay" loop="loop" onloadstart="this.volume=0.2">
          <source src="assets/u3.mp4" type="video/mp4"></source>
