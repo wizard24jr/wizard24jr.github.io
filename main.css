@@ -86,7 +86,7 @@
 /* Basic */
 
 	body, input, select, textarea {
-		color: #fff;
+		color: #000000;
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 15pt;
 		font-weight: 300 !important;
@@ -149,7 +149,7 @@
   text-transform: uppercase;
   font-weight: 900;
   font-style: italic;
-  color: white;
+  color: black;
   font-size: 120px;
   height: 250px; /* all text-shadows */
   margin-top: -40px; /* bump up */
@@ -538,7 +538,7 @@
 
 					#header nav a:hover:before {
 						background-color: rgba(255, 255, 255, 0.175);
-						color: #fff;
+						color: ##000000;
 					}
 
 				#header nav a:active {
@@ -548,7 +548,7 @@
 
 					#header nav a:active:before {
 						background-color: rgba(255, 255, 255, 0.35);
-						color: #fff;
+						color: ##000000;
 					}
 
 				#header nav a span {
